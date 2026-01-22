@@ -21,7 +21,7 @@ const Navbar = () => {
         <NavLink
           to="/profile"
           className={({ isActive }) =>
-            `p-2 rounded ${isActive ? "bg-[#3C89DD]" : "text-white"}`
+            `md:hidden p-2 rounded ${isActive ? "bg-[#3C89DD]" : "text-white"}`
           }
         >
           <FontAwesomeIcon icon={faUser} />
